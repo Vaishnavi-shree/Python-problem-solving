@@ -1,6 +1,6 @@
-# Check if a number is even or odd. 
-number = int(input("Enter a number: "))
-if number % 2 == 0:
-    print("The number is even.")
+# Check if a number is divisible by both 3 and 5.
+num = float(input("Enter a no."))
+if (num % 3 == 0 and num % 5 == 0):
+    print("No.is divisible")
 else:
-    print("The number is odd.")
+    print("not divisible")
